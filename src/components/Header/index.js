@@ -26,7 +26,7 @@ const Header = () => (
     </section>
     <header className="main-header">
       <div className="brand-header">
-        <img height="60px" src="/static/images/reimersexcavationlogo.svg" alt="logo"/>
+        <img height="60px" src="/public/static/images/reimersexcavationlogo.svg" alt="logo"/>
         <h1>Reimer's Excavation</h1>
       </div>
     </header>
