@@ -1,41 +1,69 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import exc1 from './exc1.jpg'
+import exc2 from './exc2.jpg'
+import exc3 from './exc3.jpg'
+import hdpe1 from './hdpe1.jpg'
+import hdpe2 from './hdpe2.jpg'
+import hdpe3 from './hdpe3.jpg'
+import hdpe4 from './hdpe4.jpg'
+import hdpe5 from './hdpe5.jpg'
+import hdpe6 from './hdpe6.jpg'
+import hdpe7 from './hdpe7.jpg'
+import linebore1 from './linebore1.jpg'
+import linebore2 from './linebore2.jpg'
+import linebore3 from './linebore3.jpg'
+import linebore4 from './linebore4.jpg'
+import linebore5 from './linebore5.jpg'
+
 
 const Gallery = () => (
   <div className="gallery-container">
    <div className="grid">
     <div className="cell">
-        <img src="/public/static/images/exclongroad.jpg" alt="exc1"/>
+        <img src={exc1} alt="exc1"/>
     </div>
     <div className="cell">
-        <img src="/public/static/images/twoexc.jpg" alt=""/>
+        <img src={exc2} alt="exc2"/>
     </div>
     <div className="cell">
-        <img src="/public/static/images/exconhill.jpg" alt="exc2"/>
+        <img src={exc3} alt="exc3"/>
     </div>
     <div className="cell">
-        <img src="/public/static/images/Photo 05-04-18, 2 03 50 PM.jpg" alt=""/>
+        <img src={hdpe1} alt="1"/>
     </div>
     <div className="cell">
-        <img src="/public/static/images/Photo 05-04-18, 2 03 53 PM.jpg" alt=""/>
+        <img src={hdpe2} alt="2"/>
     </div>
     <div className="cell">
-        <img src="/public/static/images/Photo 05-04-18, 2 03 54 PM (1).jpg" alt=""/>
+        <img src={hdpe3} alt="3"/>
     </div>
     <div className="cell">
-        <img src="/public/static/images/Photo 05-04-18, 2 03 55 PM (3).jpg" alt=""/>
+        <img src={hdpe4} alt="4"/>
     </div>
     <div className="cell">
-        <img src="/public/static/images/Photo 05-04-18, 5 04 58 PM (1).jpg" alt=""/>
+        <img src={hdpe5} alt="5"/>
     </div>
     <div className="cell">
-        <img src="/public/static/images/Photo 05-04-18, 5 05 00 PM (1).jpg" alt=""/>
+        <img src={hdpe6} alt="6"/>
     </div>
     <div className="cell">
-        <img src="/public/static/images/Photo 05-04-18, 5 05 03 PM.jpg" alt=""/>
+        <img src={hdpe7} alt="7"/>
     </div>
     <div className="cell">
-        <img src="/public/static/images/Photo 05-04-18, 5 05 14 PM.jpg" alt=""/>
+        <img src={linebore1} alt="8"/>
+    </div>
+    <div className="cell">
+        <img src={linebore2} alt="9"/>
+    </div>
+    <div className="cell">
+        <img src={linebore3} alt="10"/>
+    </div>
+    <div className="cell">
+        <img src={linebore4} alt="11"/>
+    </div>
+    <div className="cell">
+        <img src={linebore5} alt="12"/>
     </div>
    </div>
   </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import logo from './logo.svg'
 
 const Header = () => (
     <div className="header">
@@ -26,7 +27,7 @@ const Header = () => (
     </section>
     <header className="main-header">
       <div className="brand-header">
-        <img height="60px" src="/public/static/images/reimersexcavationlogo.svg" alt="logo"/>
+        <img height="60px" src={logo} alt="logo"/>
         <h1>Reimer's Excavation</h1>
       </div>
     </header>
